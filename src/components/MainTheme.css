@@ -1,0 +1,33 @@
+.background__image {
+  background: url('../assests/img_4.jpg') no-repeat;
+  background-size: contain;
+  min-height: calc(110vh - 16vh);
+  background-position: 140% 30px;
+  background-color: #f9fafe;
+  /* background-color: #6f6f6f; */
+}
+
+.mainTheme__slogan {
+  width: 40%;
+  top: 40%;
+  left: 8%;
+}
+
+.title h1 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.main__btn {
+  background-color: #ff0040;
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+}
+
+.desc {
+  margin: 30px 0px;
+}

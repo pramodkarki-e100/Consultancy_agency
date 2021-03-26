@@ -1,0 +1,60 @@
+.service {
+  max-width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.service__title {
+  width: 60%;
+  text-align: center;
+}
+
+.service__title h4 {
+  color: rgb(42, 42, 148);
+  font-weight: 700;
+}
+
+.service__title h2 {
+  font-size: 40px;
+  margin: 10px 0px;
+  font-weight: 700;
+}
+
+.service__title p {
+  width: 80%;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.service__info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 2rem;
+  margin-top: 60px;
+  margin: 0rem 5rem;
+  /* margin-right: 3rem; */
+}
+
+.service__card {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.service__icon i {
+  font-size: 60px;
+  color: #0795fe;
+}
+.service__heading {
+  margin: 10px 0px;
+}
+.service__heading h4 {
+  font-size: 20px;
+}
+.service__heading p {
+  margin-top: 10px;
+  padding: 0px 30px;
+}

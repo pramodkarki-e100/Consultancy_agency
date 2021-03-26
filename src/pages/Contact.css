@@ -1,0 +1,165 @@
+.contactUs {
+  background-color: white;
+  height: 100vh;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  margin: 0rem 6rem;
+}
+
+.contact__left {
+  margin-right: 10px;
+}
+
+.contact__title {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6rem;
+}
+
+.contact__title h2 {
+  color: #eb514f;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.contact__heading h1 {
+  font-size: 30px;
+  font-family: Open Sans;
+  font-weight: 700;
+  margin-right: 80px;
+  margin-top: 10px;
+}
+.line {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
+.long-line {
+  width: 80px;
+  height: 6px;
+  background-color: #eb514f;
+  margin-bottom: 5px;
+}
+
+.small-line {
+  width: 40px;
+  height: 6px;
+  background-color: #eb514f;
+}
+
+.contact__form {
+  margin: 30px 36px 10px 0px;
+}
+
+.submit__contact-info {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #eb514f;
+  border: none;
+  font-size: 18px;
+}
+
+.submit__contact-info i {
+  margin-right: 16px;
+  font-size: 16px;
+}
+
+.contact__right {
+  margin-top: 14rem;
+}
+
+.contact-intro {
+  display: flex;
+}
+
+.contact-intro p {
+  margin-top: 8px;
+}
+.sideline {
+  /* height: 20px; */
+  background-color: #eb514f;
+  width: 8px;
+  margin-right: 20px;
+}
+
+.contact__card {
+  display: flex;
+  border-radius: 8px;
+  padding: 10px 16px;
+  background-color: #fafafa;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+  margin-top: 40px;
+}
+
+.contact-card__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0c3a65;
+  font-weight: 700;
+}
+
+.contact-card__info i {
+  font-size: 40px;
+  margin-right: 12px;
+  color: black;
+}
+
+.contact-card__info p {
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+.card__right {
+  margin-left: 20px;
+}
+
+.contact__details {
+  display: flex;
+  margin-top: 50px;
+  justify-content: start;
+  align-items: center;
+}
+
+.contact__icon i {
+  background-color: #092a49;
+  padding: 18px;
+  color: white;
+  border-radius: 50%;
+  font-size: 18px;
+}
+.phone__number {
+  margin-top: 18px;
+  margin-left: 10px;
+}
+.phone__number h6 {
+  font-size: 12px;
+  font-weight: 100;
+  color: #9a9595;
+}
+
+.phone__number p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.mail__btn {
+  margin-left: 30px;
+}
+.mail__btn__info {
+  border-radius: 25px;
+  padding: 10px 24px;
+  background-color: #eb514f;
+  border: none;
+}
+.mail__btn i {
+  font-size: 20px;
+  margin-right: 12px;
+}

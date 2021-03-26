@@ -1,0 +1,131 @@
+.aboutField {
+  width: 100%;
+  background-color: white;
+  position: relative;
+  /* height: 100vh; */
+}
+
+.aboutField__bg__img {
+  width: 100%;
+  background-image: url('../assests/img_10.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+  margin-top: 24vh;
+  background-position: 14% 100%;
+}
+
+.aboutField__right {
+  position: absolute;
+  top: -1%;
+  right: 0%;
+  width: 50%;
+}
+
+.background__shade {
+  background: linear-gradient(
+    4.19deg,
+    #f5f9fc -13.21%,
+    rgba(245, 249, 252, 0) 186.44%
+  );
+  /* background-color: red; */
+  height: 8px;
+}
+
+.field__info {
+  margin-left: 20px;
+}
+
+.field__info__title h1 {
+  font-size: 40px;
+}
+
+.line_field {
+  width: 20vh;
+  height: 4px;
+  background-color: red;
+  margin-bottom: 30px;
+}
+
+.field__info__title p {
+  font-weight: 300;
+  color: rgb(184, 174, 174);
+  margin-bottom: 20px;
+}
+
+.field__info__features .features i {
+  color: red;
+  font-size: 16px;
+}
+
+.features {
+  display: flex;
+  justify-content: start;
+}
+
+.features__desc {
+  margin-left: 14px;
+  font-size: 14px;
+  color: black;
+}
+
+.field__contactUs {
+  background-color: red;
+  margin-top: 12px;
+  border-radius: 25px;
+  border: none;
+}
+
+.company__success {
+  position: relative;
+}
+
+.world_bg_image {
+  width: 100%;
+  background-image: url('../assests/world_map.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+  margin-top: 15vh;
+  background-position: 50% 50%;
+}
+
+.company__success__info {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  width: 80%;
+  text-align: center;
+}
+
+.company__success__desc h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.company__success__desc h3 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.company__success__tags {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tags {
+  margin-top: 40px;
+}
+
+.tags h1 {
+  font-size: 50px;
+  color: red;
+  font-weight: 900;
+}
+
+.tags p {
+  font-size: 20px;
+  font-weight: 500;
+}

@@ -1,0 +1,81 @@
+.cards {
+  width: 100%;
+  min-height: 45vh;
+  background: linear-gradient(
+    77.12deg,
+    rgba(255, 255, 255, 0) 10.1%,
+    rgba(245, 249, 252, 0) 97.89%,
+    #f5f9fc 101.06%
+  );
+}
+
+.card {
+  width: 20rem;
+  position: absolute;
+  bottom: -64%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+}
+
+.card:hover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  transition: all 0.4s ease;
+}
+.card-1-row {
+  left: 9%;
+}
+
+.card-1-row:hover {
+  background-image: url('../../assests/service_1.jpg');
+}
+
+.card-2-row {
+  left: 40%;
+}
+
+.card-2-row:hover {
+  background-image: url('../../assests/service_2.jpg');
+}
+
+.card-3-row {
+  left: 71%;
+}
+
+.card-3-row:hover {
+  background-image: url('../../assests/service_3.jpg');
+}
+
+.card__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card__icon > i {
+  background: red;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 40px;
+  color: white;
+}
+
+.more__desc {
+  color: black;
+}
+
+.more__desc > span {
+  padding: 8px;
+  background-color: red;
+  border-radius: 50%;
+}
+.more__desc > span > i {
+  font-size: 18px;
+  color: white;
+}
